@@ -1,0 +1,13 @@
+log:
+  fileName: ./logs/zues.log
+  maxSize: 500
+  maxBackups: 3
+  maxAge: 28
+  compress: true
+  level: DEBUG
+client:
+  ip: 0.0.0.0
+  port: 3000
+internal:
+  ip: 0.0.0.0
+  port: 8000
